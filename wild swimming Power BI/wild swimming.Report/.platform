@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "wild swimming"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9092f0a3-912f-4a91-98ab-11ad78bf0c25"
+  }
+}

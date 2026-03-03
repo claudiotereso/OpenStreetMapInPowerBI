@@ -1,0 +1,67 @@
+table 'wild swimming'
+	lineageTag: ddf08122-fd2d-4c2d-8f12-72609b962cca
+
+	column Spot
+		dataType: string
+		lineageTag: def72ec9-aaec-4e0d-a3ea-8a1f6007b57b
+		summarizeBy: none
+		sourceColumn: Spot
+
+		annotation SummarizationSetBy = Automatic
+
+	column @lat
+		dataType: string
+		lineageTag: 54c4da15-9d72-4655-a950-a8f6c68271c4
+		summarizeBy: none
+		sourceColumn: @lat
+
+		annotation SummarizationSetBy = Automatic
+
+	column @lon
+		dataType: string
+		lineageTag: b8410581-5a52-4f61-9063-ee082b88610a
+		summarizeBy: none
+		sourceColumn: @lon
+
+		annotation SummarizationSetBy = Automatic
+
+	column image
+		dataType: string
+		lineageTag: 16e55d55-37ea-4a2c-9755-68b21cbf4029
+		summarizeBy: none
+		sourceColumn: image
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: ce35f505-b10a-4143-9aa8-9c220dc66531
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Photo
+		dataType: string
+		lineageTag: 9d7957af-0948-4417-a49e-fc40a3de8312
+		summarizeBy: none
+		sourceColumn: Photo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'wild swimming' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents("https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28name%2C%3A%3Alat%2C%20%3A%3Alon%2C%20image%2Cdescription%3B%20true%3B%20%27%3B%27%29%5D%3B%0A%28%0A%20%20area%5B%22ISO3166-1%22%3D%22PT%22%5D%3B%0A%20%20area%5B%22ISO3166-1%22%3D%22ES%22%5D%3B%0A%29-%3E.iberia%3B%0Anwr%5Bleisure%3Dbathing_place%5D%28area.iberia%29-%3E.bath%3B%0Anwr%5Bleisure%3Dswimming_area%5D%28area.iberia%29-%3E.swim%3B%0A%28.swim%3B.bath%3B%29%3B%0Aout%20center%3B%0A"),[Delimiter=";", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Renamed Columns" = Table.RenameColumns(#"Promoted Headers",{{"name", "Spot"}}),
+				    #"Added Custom" = Table.AddColumn(#"Renamed Columns", "Photo", each if [image] <> "" then "with photo" else "without photo")
+				in
+				    #"Added Custom"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

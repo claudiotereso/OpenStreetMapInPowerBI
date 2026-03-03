@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "8fa4b10c70e801bb4c94",
+  "displayName": "Wild Swimming",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": -0.3
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "783653800243c99e315a",
+      "target": "0f4d60c769405271ebd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fc36b32beb6e254828e0",
+      "target": "0f4d60c769405271ebd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "306282b32cdb833e9db8",
+      "target": "783653800243c99e315a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "306282b32cdb833e9db8",
+      "target": "0f4d60c769405271ebd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "306282b32cdb833e9db8",
+      "target": "fc36b32beb6e254828e0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "306282b32cdb833e9db8",
+      "target": "fb2ec221dd07e986ea9a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0f4d60c769405271ebd8",
+      "target": "306282b32cdb833e9db8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "783653800243c99e315a",
+      "target": "306282b32cdb833e9db8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fc36b32beb6e254828e0",
+      "target": "306282b32cdb833e9db8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fb2ec221dd07e986ea9a",
+      "target": "306282b32cdb833e9db8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "783653800243c99e315a",
+      "target": "fb2ec221dd07e986ea9a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fb2ec221dd07e986ea9a",
+      "target": "0f4d60c769405271ebd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "783653800243c99e315a",
+      "target": "2b29f8f1c7dcc0e0019c",
+      "type": "DataFilter"
+    }
+  ]
+}

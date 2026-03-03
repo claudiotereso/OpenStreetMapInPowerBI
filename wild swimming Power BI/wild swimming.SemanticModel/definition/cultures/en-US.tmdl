@@ -1,0 +1,673 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "wild_swimming": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wild swimming": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "swimming": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.spot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "Spot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "advertisement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "advert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "commercial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "plug": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "predicament": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "difficulty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "quandary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "mess": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.lat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "@lat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "@lat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.lon": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "@lon"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "@lon": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.image": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "image"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "image": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "doppelgänger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "twin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "double": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "duplicate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "persona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "aura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "aspect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "semblance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "wild_swimming.photo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "wild swimming",
+			          "ConceptualProperty": "Photo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "photo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "photograph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "snap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Spots": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "wild_swimming_has_spot": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.spot": {
+			          "Target": {
+			            "Entity": "wild_swimming.spot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.spot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_spots"
+			        }
+			      ]
+			    },
+			    "wild_swimming_has_lat": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.lat": {
+			          "Target": {
+			            "Entity": "wild_swimming.lat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.lat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_lats"
+			        }
+			      ]
+			    },
+			    "wild_swimming_has_lon": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.lon": {
+			          "Target": {
+			            "Entity": "wild_swimming.lon"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.lon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_lon"
+			        }
+			      ]
+			    },
+			    "wild_swimming_has_image": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.image": {
+			          "Target": {
+			            "Entity": "wild_swimming.image"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.image"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_images"
+			        }
+			      ]
+			    },
+			    "wild_swimming_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.description": {
+			          "Target": {
+			            "Entity": "wild_swimming.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_descriptions"
+			        }
+			      ]
+			    },
+			    "wild_swimming_has_photo": {
+			      "Binding": {
+			        "ConceptualEntity": "wild swimming"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "wild_swimming": {
+			          "Target": {
+			            "Entity": "wild_swimming"
+			          }
+			        },
+			        "wild_swimming.photo": {
+			          "Target": {
+			            "Entity": "wild_swimming.photo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "wild_swimming"
+			            },
+			            "Object": {
+			              "Role": "wild_swimming.photo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "wild_swimming_have_photos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
