@@ -1,2 +1,2 @@
 # OpenStreetMapInPowerBI
-Code for the book OpenStreetMapInPowerBI
+Code for OpenStreetMapInPowerBI Experiments
